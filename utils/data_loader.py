@@ -80,7 +80,7 @@ def get_stock_info(symbol: str) -> Optional[Dict[str, Any]]:
         else:
             formatted_yield = f"{raw_yield:.2f}%"
 
-        st.write(f"🧪 DEBUG: Raw dividendYield = {raw_yield}, formatted = {formatted_yield}")
+        
     
 
         stock_info = {
