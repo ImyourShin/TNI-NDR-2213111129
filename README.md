@@ -160,6 +160,6 @@ This project is open source and intended for educational and development purpose
 ## Links
 
 * **Website**: [TradingLite](https://tradinglite.streamlit.app/)
-* **Presentation**: [TradingLite Presentation](https://gamma.app/docs/TradingLite-Advanced-Stock-Analysis-Platform-vlxr5x4tt2pes20)
+* **Presentation**: [TradingLite Presentation](https://www.canva.com/design/DAGoggec86k/VYrJdRht5uPRoW3xF0dYDA/edit?utm_content=DAGoggec86k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 💡 **Note**: This application is developed for educational and stock data analysis purposes. It is not intended as investment advice. Please exercise discretion when making investment decisions.
