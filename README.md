@@ -1,159 +1,165 @@
 # 📈 TradingLite - Advanced Stock Analysis Platform
 
+## ✨ Key Features
 
+### 📊 Real-Time Market Data
 
-## ✨ ฟีเจอร์หลัก
+* Live stock prices and market data
+* Multiple time intervals (1 minute to maximum available data)
+* Volume analysis and trade statistics
+* Customizable historical price data
 
-### 📊 ข้อมูลตลาดแบบ Real-Time
-- ราคาหุ้นและข้อมูลตลาดแบบสด
-- หลายช่วงเวลา (1 นาที ถึงข้อมูลสูงสุดที่มี)
-- การวิเคราะห์ Volume และสถิติการซื้อขาย
-- ข้อมูลราคาในอดีตที่ปรับแต่งช่วงเวลาได้
+### 📈 Advanced Technical Analysis
 
-### 📈 การวิเคราะห์ทางเทคนิคขั้นสูง
-- **Interactive Charts**: กราฟ Candlestick และ Line chart พร้อมฟังก์ชัน zoom และ pan
-- **Technical Indicators**:
-  - Moving Averages (SMA/EMA) ที่ปรับแต่งช่วงเวลาได้
-  - RSI (Relative Strength Index)
-  - MACD (Moving Average Convergence Divergence)
-  - Bollinger Bands
+* **Interactive Charts**: Candlestick and Line charts with zoom and pan functionality
+* **Technical Indicators**:
+
+  * Customizable Moving Averages (SMA/EMA)
+  * RSI (Relative Strength Index)
+  * MACD (Moving Average Convergence Divergence)
+  * Bollinger Bands
 
 ### 💡 Trading Recommendations
-- คำแนะนำ Buy / Sell / Hold โดยวิเคราะห์จากหลายตัวชี้วัด
-- การวิเคราะห์ Support และ Resistance levels
 
-### 📋 ข้อมูลบริษัทและตลาด
-- ข้อมูลพื้นฐานของบริษัท
-- Business summary และข้อมูลอุตสาหกรรม
-- การวิเคราะห์ Volatility และ Performance
+* Buy / Sell / Hold suggestions based on multiple indicators
+* Support and Resistance level analysis
 
-## 🚀 การติดตั้งและใช้งาน
+### 📋 Company and Market Insights
 
-### 1. Clone Repository จาก GitHub
+* Fundamental company information
+* Business summaries and industry data
+* Volatility and performance analysis
+
+## 🚀 Installation and Usage
+
+### 1. Clone the Repository from GitHub
 
 ```bash
 # Clone repository
 git clone https://github.com/YOUR_USERNAME/TradingLite.git
 
-# เข้าไปในโฟลเดอร์โปรเจค
+# Navigate to the project folder
 cd TradingLite
 ```
 
-### 2. ติดตั้ง Dependencies
+### 2. Install Dependencies
 
 ```bash
-# สร้าง virtual environment (แนะนำ)
+# Create a virtual environment (recommended)
 python -m venv tradingLite_env
 
-# เปิดใช้งาน virtual environment
-# สำหรับ Windows:
+# Activate the virtual environment
+# For Windows:
 tradingLite_env\Scripts\activate
-# สำหรับ macOS/Linux:
+# For macOS/Linux:
 source tradingLite_env/bin/activate
 
-# ติดตั้ง required packages
+# Install required packages
 pip install -r requirements.txt
 ```
 
-### 3. เรียกใช้งานแอพพลิเคชัน
+### 3. Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-แอพพลิเคชันจะเปิดขึ้นมาในเบราว์เซอร์ที่ `http://localhost:8501`
+The application will open in a browser at `http://localhost:8501`.
 
 ## 📦 Dependencies
 
+```bash
 pip install -r requirements.txt
-
 ```
 
+## 📱 How to Use
 
-## 📱 วิธีใช้งาน
+### 1. Search for Stocks
 
-### 1. การค้นหาหุ้น
-- ป้อนสัญลักษณ์หุ้น (เช่น AAPL, GOOGL, TSLA) ในช่อง Stock Symbol
-- ระบบจะตรวจสอบความถูกต้องของสัญลักษณ์อัตโนมัติ
+* Enter a stock symbol (e.g., AAPL, GOOGL, TSLA) in the Stock Symbol field.
+* The system will automatically validate the symbol.
 
-### 2. การตั้งค่าการวิเคราะห์
-- เลือกช่วงเวลาสำหรับการวิเคราะห์ (1 วัน ถึง Maximum Available)
-- เลือกความถี่ของข้อมูล (1 นาที ถึง Monthly)
-- เลือกประเภทกราฟ (Candlestick หรือ Line Chart)
+### 2. Configure Analysis Settings
 
-### 3. การใช้งาน Technical Indicators
-- เปิด/ปิด Volume chart
-- เลือก Moving Averages และปรับแต่งช่วงเวลา
-- เปิดใช้งาน RSI, MACD, และ Bollinger Bands
-- ปรับแต่งความสูงของกราฟ
+* Choose a time period for analysis (1 day to maximum available).
+* Select data frequency (1 minute to monthly).
+* Pick a chart type (Candlestick or Line Chart).
 
-### 4. การดูผลการวิเคราะห์
-- **Chart Analysis Tab**: ดูกราฟและ Technical indicators
-- **Technical Indicators Tab**: ดูคำแนะนำการเทรดและการวิเคราะห์ขั้นสูง  
-- **Market Data Tab**: ดูข้อมูลบริษัทและสถิติตลาด
+### 3. Use Technical Indicators
 
+* Toggle Volume chart on/off.
+* Select and customize Moving Averages.
+* Enable RSI, MACD, and Bollinger Bands.
+* Adjust the chart's height.
+
+### 4. View Analysis Results
+
+* **Chart Analysis Tab**: View charts and technical indicators.
+* **Technical Indicators Tab**: See trading recommendations and advanced analysis.
+* **Market Data Tab**: Access company data and market statistics.
 
 ### Enhanced Metrics Dashboard
-- Live market dashboard พร้อมข้อมูลครบถ้วน
-- การเปรียบเทียบ Performance ในหลายช่วงเวลา
-- การวิเคราะห์ Volume patterns
-- Key technical levels (Support/Resistance)
+
+* Live market dashboard with comprehensive data.
+* Performance comparisons across multiple timeframes.
+* Volume pattern analysis.
+* Key technical levels (Support/Resistance).
 
 ### Advanced Statistical Analysis
-- Volatility analysis
-- Risk metrics (Beta, Sharpe ratio)
-- Drawdown analysis
-- Performance comparison
 
-## 🛠️ การพัฒนาและปรับแต่ง
+* Volatility analysis
+* Risk metrics (Beta, Sharpe ratio)
+* Drawdown analysis
+* Performance comparison
 
-### การเพิ่ม Technical Indicators ใหม่
-1. เพิ่มฟังก์ชันคำนวณใน `app.py`
-2. เพิ่ม UI controls ใน sidebar
-3. เพิ่มการแสดงผลในกราฟหลัก
+## 🛠️ Development and Customization
 
-### การปรับแต่ง UI/UX
-- แก้ไข CSS ใน `st.markdown()` sections
-- ปรับ layout ด้วย `st.columns()` และ `st.container()`
-- เพิ่ม theme และ color schemes
+### Adding New Technical Indicators
+
+1. Add the calculation function in `app.py`.
+2. Add UI controls in the sidebar.
+3. Integrate the indicator into the main chart.
+
+### UI/UX Customization
+
+* Modify CSS in `st.markdown()` sections.
+* Adjust layout with `st.columns()` and `st.container()`.
+* Add themes and color schemes.
 
 ## 📊 Data Sources
 
-- **Yahoo Finance API** ผ่าน yfinance library
-- ข้อมูล Real-time และ Historical data
-- รองรับตลาดหุ้นทั่วโลก
-- ข้อมูลบริษัทและ Financial metrics
+* **Yahoo Finance API** via the `yfinance` library
+* Real-time and historical data
+* Global stock market support
+* Company information and financial metrics
 
-## ⚠️ ข้อจำกัดและการใช้งาน
+## ⚠️ Limitations and Usage Notes
 
-- ข้อมูลจาก Yahoo Finance อาจมีความล่าช้า
-- การใช้งานมากเกินไปอาจถูกจำกัดจาก API
-- คำแนะนำการเทรดเป็นเพียงข้อมูลอ้างอิง ไม่ใช่คำแนะนำการลงทุน
-- ควรทำการวิเคราะห์เพิ่มเติมก่อนตัดสินใจลงทุน
+* Data from Yahoo Finance may have delays.
+* Excessive usage may be limited by API restrictions.
+* Trading recommendations are for reference only, not investment advice.
+* Always conduct additional analysis before making investment decisions.
 
 ## 👨‍💻 Developer
 
-**Teshin Bubpha**  
+**Teshin Bubpha**
 TNI-NDR-2213111129
-
-
 
 ## 📄 License
 
-โปรเจคนี้เป็น Open Source สำหรับการศึกษาและพัฒนา
+This project is open source and intended for educational and development purposes.
 
-## 🆘 การแก้ไขปัญหา
+## 🆘 Troubleshooting
 
-### ปัญหาที่พบบ่อย
+### Common Issues
 
-1. **ModuleNotFoundError**: ตรวจสอบการติดตั้ง dependencies
-2. **Data loading errors**: ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต
-3. **Symbol not found**: ใช้สัญลักษณ์หุ้นที่ถูกต้อง
+1. **ModuleNotFoundError**: Check that dependencies are installed.
+2. **Data loading errors**: Verify your internet connection.
+3. **Symbol not found**: Use valid stock symbols.
 
-##Link เว็บไซต์
-https://tradinglite.streamlit.app/
+## Links
 
-##Link Presentation
-https://gamma.app/docs/TradingLite-Advanced-Stock-Analysis-Platform-vlxr5x4tt2pes20
+* **Website**: [TradingLite](https://tradinglite.streamlit.app/)
+* **Presentation**: [TradingLite Presentation](https://gamma.app/docs/TradingLite-Advanced-Stock-Analysis-Platform-vlxr5x4tt2pes20)
 
-💡 **หมายเหตุ**: แอพพลิเคชันนี้พัฒนาขึ้นเพื่อการศึกษาและการวิเคราะห์ข้อมูลหุ้น ไม่ใช่คำแนะนำการลงทุน โปรดใช้วิจารณญาณในการตัดสินใจลงทุน
+💡 **Note**: This application is developed for educational and stock data analysis purposes. It is not intended as investment advice. Please exercise discretion when making investment decisions.
